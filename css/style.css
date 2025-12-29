@@ -1,0 +1,581 @@
+header nav .active {
+    color: white !important;
+}
+
+nav .navbar-nav li a {
+    color: #4a5568;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+nav .navbar-nav li a:hover {
+    color: #3182ce;
+    transform: translateY(-2px);
+}
+
+nav .navbar-nav li a::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: #3182ce;
+    transition: width 0.3s ease;
+}
+
+nav .navbar-nav li a:hover::after {
+    width: 100%;
+}
+
+.m-bg-color {
+    background-color: #2d3748;
+}
+
+.navbar {
+    top: 20px;
+}
+
+.hero-carousel::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.45);
+    pointer-events: none;
+    z-index: 1;
+}
+
+.carousel-item-body p {
+    color: #2d3748;
+}
+
+.property-section .carousel-item .row .item {
+    padding: 0;
+    margin-bottom: 50px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.property-section .carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    background-color: #2d3748;
+    margin: 0 6px;
+}
+
+.customer-says .carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    background-color: #2d3748;
+    margin: 0 6px;
+    border-radius: 50%;
+}
+
+.btns button {
+    background-color: #e2e8f0;
+    color: #2d3748;
+}
+
+.second-color {
+    color: #1a202c;
+}
+
+.our-properites .row a::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #1a202c;
+    left: 0;
+    bottom: -10px;
+    transition: all 0.3s ease;
+}
+
+.our-properites .row a:hover::after {
+    background-color: #3182ce;
+    height: 3px;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    transition: all 0.3s ease;
+}
+
+.avatar:hover {
+    transform: scale(1.05);
+}
+
+.light-bg {
+    background-color: #f7fafc;
+}
+
+.right .image {
+    height: 500px;
+}
+
+.dots {
+    right: -50px;
+    bottom: -30px;
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    background-color: #1a202c;
+    transition: all 0.3s ease;
+}
+
+.circle:hover {
+    background-color: #3182ce;
+    transform: translateY(-5px);
+}
+
+.our-agents .item .image {
+    top: -50px;
+}
+
+footer .links .circle {
+    background-color: #cbd5e0;
+    transition: all 0.3s ease;
+}
+
+footer .links .circle:hover {
+    background-color: #3182ce;
+    transform: translateY(-3px);
+}
+
+.contact-header {
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.57), rgba(0, 0, 0, 0.581)), url(../images/hero_bg_1.jpg);
+}
+
+.contact-header,
+.about-header {
+    height: 60vh;
+    background-size: cover;
+    background-position: top center;
+}
+
+.about-header{
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.57), rgba(0, 0, 0, 0.581)), url(../images/hero_bg_3.jpg);
+}
+
+.form input::placeholder,
+.form textarea::placeholder {
+    color: #718096;
+}
+
+.form input,
+.form textarea {
+    transition: all 0.3s ease;
+    border: 2px solid #e2e8f0;
+}
+
+.form input:focus,
+.form textarea:focus {
+    border-color: #3182ce;
+    box-shadow: 0 0 0 3px rgba(49, 130, 206, 0.2);
+    transform: translateY(-2px);
+}
+
+.our-properites .item {
+    transition: all 0.3s ease;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.our-properites .item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.customer-says .item {
+    transition: all 0.3s ease;
+}
+
+.customer-says .item:hover {
+    transform: translateY(-5px);
+}
+
+.stats .item {
+    transition: all 0.3s ease;
+}
+
+.stats .item:hover {
+    transform: scale(1.05);
+}
+
+.our-agents .item {
+    transition: all 0.3s ease;
+}
+
+.our-agents .item:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+footer .text-decoration-underline {
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+footer .text-decoration-underline:hover {
+    color: #3182ce !important;
+    transform: translateX(5px);
+}
+
+.dropdown-menu {
+    transition: all 0.3s ease;
+}
+
+.dropdown-item {
+    transition: all 0.3s ease;
+}
+
+.dropdown-item:hover {
+    background-color: #3182ce;
+    color: white;
+    transform: translateX(5px);
+}
+
+.navbar-brand {
+    transition: all 0.3s ease;
+}
+
+.navbar-brand:hover {
+    transform: scale(1.05);
+}
+
+.text-warning {
+    transition: all 0.3s ease;
+}
+
+.text-warning:hover {
+    transform: scale(1.2);
+    color: #f6ad55 !important;
+}
+
+.bg-white {
+    transition: all 0.3s ease;
+}
+
+.bg-white:hover {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.bg-secondary-subtle {
+    transition: all 0.3s ease;
+}
+
+.bg-secondary-subtle:hover {
+    background-color: #e2e8f0 !important;
+}
+
+.form-control {
+    transition: all 0.3s ease;
+}
+
+.form-control:hover {
+    border-color: #3182ce;
+    transform: translateY(-2px);
+}
+
+.btn {
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.img-fluid {
+    transition: all 0.3s ease;
+}
+
+.img-fluid:hover {
+    transform: scale(1.05);
+}
+
+.rounded-circle {
+    transition: all 0.3s ease;
+}
+
+.rounded-circle:hover {
+    transform: scale(1.1);
+}
+
+.text-secondary {
+    transition: all 0.3s ease;
+}
+
+.text-secondary:hover {
+    color: #3182ce !important;
+}
+
+.fw-bold {
+    transition: all 0.3s ease;
+}
+
+.fw-bold:hover {
+    transform: scale(1.02);
+}
+
+.display-6 {
+    transition: all 0.3s ease;
+}
+
+.display-6:hover {
+    transform: scale(1.01);
+}
+
+.position-relative {
+    transition: all 0.3s ease;
+}
+
+.position-relative:hover {
+    transform: translateY(-2px);
+}
+
+.d-flex {
+    transition: all 0.3s ease;
+}
+
+.d-flex:hover {
+    transform: scale(1.01);
+}
+
+.container {
+    transition: all 0.3s ease;
+}
+
+.container:hover {
+    transform: scale(1.001);
+}
+
+.row {
+    transition: all 0.3s ease;
+}
+
+.row:hover {
+    transform: scale(1.001);
+}
+
+.col-md-5 {
+    transition: all 0.3s ease;
+}
+
+.col-md-5:hover {
+    transform: scale(1.01);
+}
+
+.col-lg {
+    transition: all 0.3s ease;
+}
+
+.col-lg:hover {
+    transform: scale(1.01);
+}
+
+.text-center {
+    transition: all 0.3s ease;
+}
+
+.text-center:hover {
+    transform: scale(1.01);
+}
+
+.mb-4 {
+    transition: all 0.3s ease;
+}
+
+.mb-4:hover {
+    transform: translateY(-2px);
+}
+
+.mb-5 {
+    transition: all 0.3s ease;
+}
+
+.mb-5:hover {
+    transform: translateY(-2px);
+}
+
+.mt-5 {
+    transition: all 0.3s ease;
+}
+
+.mt-5:hover {
+    transform: translateY(-2px);
+}
+
+.p-4 {
+    transition: all 0.3s ease;
+}
+
+.p-4:hover {
+    transform: scale(1.02);
+}
+
+.gap-3 {
+    transition: all 0.3s ease;
+}
+
+.gap-3:hover {
+    transform: scale(1.01);
+}
+
+.justify-content-center {
+    transition: all 0.3s ease;
+}
+
+.justify-content-center:hover {
+    transform: scale(1.001);
+}
+
+.align-items-center {
+    transition: all 0.3s ease;
+}
+
+.align-items-center:hover {
+    transform: scale(1.001);
+}
+
+.rounded-5 {
+    transition: all 0.3s ease;
+}
+
+.rounded-5:hover {
+    transform: scale(1.02);
+}
+
+.border-0 {
+    transition: all 0.3s ease;
+}
+
+.border-0:hover {
+    transform: translateY(-2px);
+}
+
+.w-100 {
+    transition: all 0.3s ease;
+}
+
+.w-100:hover {
+    transform: scale(1.01);
+}
+
+.h-100 {
+    transition: all 0.3s ease;
+}
+
+.h-100:hover {
+    transform: scale(1.01);
+}
+
+.object-fit-cover {
+    transition: all 0.3s ease;
+}
+
+.object-fit-cover:hover {
+    transform: scale(1.02);
+}
+
+.d-block {
+    transition: all 0.3s ease;
+}
+
+.d-block:hover {
+    transform: scale(1.01);
+}
+
+.mx-auto {
+    transition: all 0.3s ease;
+}
+
+.mx-auto:hover {
+    transform: scale(1.01);
+}
+
+.text-white {
+    transition: all 0.3s ease;
+}
+
+.text-white:hover {
+    transform: scale(1.01);
+}
+
+.fs-3 {
+    transition: all 0.3s ease;
+}
+
+.fs-3:hover {
+    transform: scale(1.02);
+}
+
+.fs-5 {
+    transition: all 0.3s ease;
+}
+
+.fs-5:hover {
+    transform: scale(1.02);
+}
+
+.fw-medium {
+    transition: all 0.3s ease;
+}
+
+.fw-medium:hover {
+    transform: scale(1.02);
+}
+
+.text-uppercase {
+    transition: all 0.3s ease;
+}
+
+.text-uppercase:hover {
+    transform: scale(1.02);
+}
+
+.pb-5 {
+    transition: all 0.3s ease;
+}
+
+.pb-5:hover {
+    transform: translateY(-2px);
+}
+
+.px-3 {
+    transition: all 0.3s ease;
+}
+
+.px-3:hover {
+    transform: scale(1.01);
+}
+
+.py-5 {
+    transition: all 0.3s ease;
+}
+
+.py-5:hover {
+    transform: translateY(-2px);
+}
+
+.my-5 {
+    transition: all 0.3s ease;
+}
+
+.my-5:hover {
+    transform: translateY(-2px);
+}
+
+.pt-5 {
+    transition: all 0.3s ease;
+}
+
+.pt-5:hover {
+    transform: translateY(-2px);
+}

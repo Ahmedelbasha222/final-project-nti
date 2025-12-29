@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../images/favicon.png">
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Property</title>
+</head>
+
+<body>
+
+    <header class="vh-100 position-relative">
+        <div class="hero-carousel position-absolute top-0 start-0 w-100 h-100">
+            <div id="heroCarousel" class="carousel slide h-100" data-bs-ride="carousel" data-bs-interval="4000">
+                <div class="carousel-inner h-100">
+                    <div class="carousel-item h-100 active">
+                        <img src="../images/hero_bg_1.jpg" class="d-block w-100 h-100 object-fit-cover"
+                            alt="Find Your Place">
+
+                    </div>
+                    <div class="carousel-item h-100">
+                        <img src="../images/hero_bg_2.jpg" class="d-block w-100 h-100 object-fit-cover"
+                            alt="Modern Living">
+
+                    </div>
+                    <div class="carousel-item h-100">
+                        <img src="../images/hero_bg_3.jpg" class="d-block w-100 h-100 object-fit-cover"
+                            alt="Dream Homes">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid container-lg">
+            <nav class="navbar navbar-expand-md m-bg-color position-relative z-3 py-2 rounded-2">
+                <div class="container-fluid">
+                    <a class="navbar-brand text-white fs-3" href="#">Property</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-4">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Dropdown
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/contact.html">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="caption col-10 position-absolute top-50 start-50 translate-middle text-center text-white z-2">
+                <p class="display-6 fw-bold">Easiest way to find your dream home</p>
+                <div
+                    class="row flex-column flex-md-row justify-content-center align-items-center px-3 py-2 rounded-5 gap-3">
+                    <input type="text" class="py-3 ps-4 col-12 col-md-8 col-lg-6 rounded-5 border-0"
+                        id="exampleFormControlInput1" placeholder="Your ZIP code or City. e.g. New York">
+                    <button class="m-bg-color border-0 col-4 col-md-2 rounded-5 text-white py-3">search</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="property-section my-5">
+        <div class="container-fluid container-lg px-5">
+            <div class="d-flex align-items-center justify-content-between">
+                <h2 class="second-color">Popular Properties</h2>
+                <button class="m-bg-color border-0 text-white py-3 px-4 rounded-5">View All Properties</button>
+            </div>
+            <div id="carouselExampleIndicators" class="carousel slide my-5 py-3">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active rounded-circle" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        class="rounded-circle" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        class="rounded-circle" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row gap-3 justify-content-center">
+                            <div class="item col-12 col-md-5 col-lg">
+                                <img src="../images/img_7.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-item-body p-4">
+                                    <p class="fw-bold fs-5 text-decoration-underline mb-2">$1,291,000</p>
+                                    <span class="text-secondary">5232 California Fake, Ave. 21BC </span>
+                                    <h5 class="my-3 fw-bold">California, USA</h5>
+                                    <div class="d-flex gap-4 mb-3">
+                                        <span class="text-secondary"><i class="fa-solid fa-bed"></i> 2 beds</span>
+                                        <span class="text-secondary"><i class="fa-solid fa-bath"></i> 2 baths</span>
+                                    </div>
+                                    <button class="m-bg-color border-0 text-white py-2 px-3 rounded-5">see
+                                        details</button>
+                                </div>
+                            </div>
+                            <div class="item col-12 col-md-5 col-lg">
+                                <img src="../images/img_8.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-item-body p-4">
+                                    <p class="fw-bold fs-5 text-decoration-underline mb-2">$1,291,000</p>
+                                    <span class="text-secondary">5232 California Fake, Ave. 21BC </span>
+                                    <h5 class="my-3 fw-bold">California, USA</h5>
+                                    <div class="d-flex gap-4 mb-3">
+                                        <span class="text-secondary"><i class="fa-solid fa-bed"></i> 2 beds</span>
+                                        <span class="text-secondary"><i class="fa-solid fa-bath"></i> 2 baths</span>
+                                    </div>
+                                    <button class="m-bg-color border-0 text-white py-2 px-3 rounded-5">see
+                                        details</button>
+                                </div>
+                            </div>
+                            <div class="item col-12 col-md-5 col-lg">
+                                <img src="../images/img_1.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-item-body p-4">
+                                    <p class="fw-bold fs-5 text-decoration-underline mb-2">$1,291,000</p>
+                                    <span class="text-secondary">5232 California Fake, Ave. 21BC </span>
+                                    <h5 class="my-3 fw-bold">California, USA</h5>
+                                    <div class="d-flex gap-4 mb-3">
+                                        <span class="text-secondary"><i class="fa-solid fa-bed"></i> 2 beds</span>
+                                        <span class="text-secondary"><i class="fa-solid fa-bath"></i> 2 baths</span>
+                                    </div>
+                                    <button class="m-bg-color border-0 text-white py-2 px-3 rounded-5">see
+                                        details</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        < <div class="row gap-3 justify-content-center">
+                            <div class="item col-12 col-md-5 col-lg">
+                                <img src="../images/img_1.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-item-body p-4">
+                                    <p class="fw-bold fs-5 text-decoration-underline mb-2">$1,291,000</p>
+                                    <span class="text-secondary">5232 California Fake, Ave. 21BC </span>
+                                    <h5 class="my-3 fw-bold">California, USA</h5>
+                                    <div class="d-flex gap-4 mb-3">
+                                        <span class="text-secondary"><i class="fa-solid fa-bed"></i> 2 beds</span>
+                                        <span class="text-secondary"><i class="fa-solid fa-bath"></i> 2 baths</span>
+                                    </div>
+                                    <button class="m-bg-color border-0 text-white py-2 px-3 rounded-5">see
+                                        details</button>
+                                </div>
+                            </div>
+                            <div class="item col-12 col-md-5 col-lg">
+                                <img src="../images/img_2.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-item-body p-4">
+                                    <p class="fw-bold fs-5 text-decoration-underline mb-2">$1,291,000</p>
+                                    <span class="text-secondary">5232 California Fake, Ave. 21BC </span>
+                                    <h5 class="my-3 fw-bold">California, USA</h5>
+                                    <div class="d-flex gap-4 mb-3">
+                                        <span class="text-secondary"><i class="fa-solid fa-bed"></i> 2 beds</span>
+                                        <span class="text-secondary"><i class="fa-solid fa-bath"></i> 2 baths</span>
+                                    </div>
+                                    <button class="m-bg-color border-0 text-white py-2 px-3 rounded-5">see
+                                        details</button>
+                                </div>
+                            </div>
+                            <div class="item col-12 col-md-5 col-lg">
+                                <img src="../images/img_3.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-item-body p-4">
+                                    <p class="fw-bold fs-5 text-decoration-underline mb-2">$1,291,000</p>
+                                    <span class="text-secondary">5232 California Fake, Ave. 21BC </span>
+                                    <h5 class="my-3 fw-bold">California, USA</h5>
+                                    <div class="d-flex gap-4 mb-3">
+                                        <span class="text-secondary"><i class="fa-solid fa-bed"></i> 2 beds</span>
+                                        <span class="text-secondary"><i class="fa-solid fa-bath"></i> 2 baths</span>
+                                    </div>
+                                    <button class="m-bg-color border-0 text-white py-2 px-3 rounded-5">see
+                                        details</button>
+                                </div>
+                            </div>
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row gap-3 justify-content-center">
+                        <div class="item col-12 col-md-5 col-lg">
+                            <img src="../images/img_4.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-item-body p-4">
+                                <p class="fw-bold fs-5 text-decoration-underline mb-2">$1,291,000</p>
+                                <span class="text-secondary">5232 California Fake, Ave. 21BC </span>
+                                <h5 class="my-3 fw-bold">California, USA</h5>
+                                <div class="d-flex gap-4 mb-3">
+                                    <span class="text-secondary"><i class="fa-solid fa-bed"></i> 2 beds</span>
+                                    <span class="text-secondary"><i class="fa-solid fa-bath"></i> 2 baths</span>
+                                </div>
+                                <button class="m-bg-color border-0 text-white py-2 px-3 rounded-5">see
+                                    details</button>
+                            </div>
+                        </div>
+                        <div class="item col-12 col-md-5 col-lg">
+                            <img src="../images/img_5.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-item-body p-4">
+                                <p class="fw-bold fs-5 text-decoration-underline mb-2">$1,291,000</p>
+                                <span class="text-secondary">5232 California Fake, Ave. 21BC </span>
+                                <h5 class="my-3 fw-bold">California, USA</h5>
+                                <div class="d-flex gap-4 mb-3">
+                                    <span class="text-secondary"><i class="fa-solid fa-bed"></i> 2 beds</span>
+                                    <span class="text-secondary"><i class="fa-solid fa-bath"></i> 2 baths</span>
+                                </div>
+                                <button class="m-bg-color border-0 text-white py-2 px-3 rounded-5">see
+                                    details</button>
+                            </div>
+                        </div>
+                        <div class="item col-12 col-md-5 col-lg">
+                            <img src="../images/img_6.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-item-body p-4">
+                                <p class="fw-bold fs-5 text-decoration-underline mb-2">$1,291,000</p>
+                                <span class="text-secondary">5232 California Fake, Ave. 21BC </span>
+                                <h5 class="my-3 fw-bold">California, USA</h5>
+                                <div class="d-flex gap-4 mb-3">
+                                    <span class="text-secondary"><i class="fa-solid fa-bed"></i> 2 beds</span>
+                                    <span class="text-secondary"><i class="fa-solid fa-bath"></i> 2 baths</span>
+                                </div>
+                                <button class="m-bg-color border-0 text-white py-2 px-3 rounded-5">see
+                                    details</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="btns d-flex justify-content-between align-items-center mt-3">
+                <button class="py-2 px-4 border-0 rounded-5" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">prev</button>
+                <button class="py-2 px-4 border-0 rounded-5" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">next</button>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="our-properites light-bg py-4 my-5">
+        <div class="container">
+            <div class="row gap-3 justify-content-center">
+                <div class="item py-5 px-2 rounded-1 bg-white col-10 col-md-5 col-lg text-center">
+                    <div class="image w-25 mx-auto">
+                        <img src="../images/new.png" class="w-100 d-block" alt="">
+                    </div>
+                    <p class="second-color fw-bold">Our Properties</p>
+                    <p class="text-secondary">Lorem ipsum dolor sit amet.
+                        consectetur adipisicing elit.
+                        Voluptates, accusamus</p>
+                    <a href="" class="second-color text-decoration-none position-relative">Learn More</a>
+                </div>
+                <div class="item py-5 px-2 rounded-1 bg-white col-10 col-md-5 col-lg text-center">
+                    <div class="image w-25 mx-auto">
+                        <img src="../images/new.png" class="w-100 d-block" alt="">
+                    </div>
+                    <p class="second-color fw-bold">Our Properties</p>
+                    <p class="text-secondary">Lorem ipsum dolor sit amet.
+                        consectetur adipisicing elit.
+                        Voluptates, accusamus</p>
+                    <a href="" class="second-color text-decoration-none position-relative">Learn More</a>
+                </div>
+                <div class="item py-5 px-2 rounded-1 bg-white col-10 col-md-5 col-lg text-center">
+                    <div class="image w-25 mx-auto">
+                        <img src="../images/new.png" class="w-100 d-block" alt="">
+                    </div>
+                    <p class="second-color fw-bold">Our Properties</p>
+                    <p class="text-secondary">Lorem ipsum dolor sit amet.
+                        consectetur adipisicing elit.
+                        Voluptates, accusamus</p>
+                    <a href="" class="second-color text-decoration-none position-relative">Learn More</a>
+                </div>
+                <div class="item py-5 px-2 rounded-1 bg-white col-10 col-md-5 col-lg text-center">
+                    <div class="image w-25 mx-auto">
+                        <img src="../images/new.png" class="w-100 d-block" alt="">
+                    </div>
+                    <p class="second-color fw-bold">Our Properties</p>
+                    <p class="text-secondary">Lorem ipsum dolor sit amet.
+                        consectetur adipisicing elit.
+                        Voluptates, accusamus</p>
+                    <a href="" class="second-color text-decoration-none position-relative">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="customer-says my-5">
+        <div class="container px-5">
+            <div class="d-flex justify-content-between align-items-center">
+                <h2 class="second-color">Customer Says</h2>
+                <div class="btns d-flex align-items-center gap-2">
+                    <button class="py-2 px-4 border-0 rounded-5" type="button" data-bs-target="#customerCarousel"
+                        data-bs-slide="prev">prev</button>
+                    <button class="py-2 px-4 border-0 rounded-5" type="button" data-bs-target="#customerCarousel"
+                        data-bs-slide="next">next</button>
+                </div>
+            </div>
+            <div id="customerCarousel" class="carousel slide my-5 py-3">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#customerCarousel" data-bs-slide-to="0"
+                        class="active rounded-circle" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#customerCarousel" data-bs-slide-to="1" class="rounded-circle"
+                        aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="item mb-5 col-10 col-md-5 col-lg">
+                                <div class="avatar mb-4">
+                                    <img src="../images/person_1-min.jpg" class="rounded-circle w-100 d-block" alt="">
+                                </div>
+                                <div class="d-flex">
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                </div>
+                                <h4 class="second-color">Cameron Webster</h4>
+                                <p class="my-4">“Far far away, behind the word mountains, far
+                                    from the countries Vokalia and Consonantia,
+                                    there live the blind texts. Separated they live in
+                                    Bookmarksgrove right at the coast of the
+                                    Semantics, a large language ocean”</p>
+                                <p class="text-secondary">Designer, Co-founder</p>
+                            </div>
+                            <div class="item mb-5 col-10 col-md-5 col-lg">
+                                <div class="avatar mb-4">
+                                    <img src="../images/person_2-min.jpg" class="rounded-circle w-100 d-block" alt="">
+                                </div>
+                                <div class="d-flex">
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                </div>
+                                <h4 class="second-color">Cameron Webster</h4>
+                                <p class="my-4">“Far far away, behind the word mountains, far
+                                    from the countries Vokalia and Consonantia,
+                                    there live the blind texts. Separated they live in
+                                    Bookmarksgrove right at the coast of the
+                                    Semantics, a large language ocean”</p>
+                                <p class="text-secondary">Designer, Co-founder</p>
+                            </div>
+                            <div class="item mb-5 col-10 col-md-5 col-lg">
+                                <div class="avatar mb-4">
+                                    <img src="../images/person_3-min.jpg" class="rounded-circle w-100 d-block" alt="">
+                                </div>
+                                <div class="d-flex">
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                </div>
+                                <h4 class="second-color">Cameron Webster</h4>
+                                <p class="my-4">“Far far away, behind the word mountains, far
+                                    from the countries Vokalia and Consonantia,
+                                    there live the blind texts. Separated they live in
+                                    Bookmarksgrove right at the coast of the
+                                    Semantics, a large language ocean”</p>
+                                <p class="text-secondary">Designer, Co-founder</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="item mb-5 col-10 col-md-5 col-lg">
+                                <div class="avatar mb-4">
+                                    <img src="../images/person_4-min.jpg" class="rounded-circle w-100 d-block" alt="">
+                                </div>
+                                <div class="d-flex">
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                </div>
+                                <h4 class="second-color">Cameron Webster</h4>
+                                <p class="my-4">“Far far away, behind the word mountains, far
+                                    from the countries Vokalia and Consonantia,
+                                    there live the blind texts. Separated they live in
+                                    Bookmarksgrove right at the coast of the
+                                    Semantics, a large language ocean”</p>
+                                <p class="text-secondary">Designer, Co-founder</p>
+                            </div>
+                            <div class="item mb-5 col-10 col-md-5 col-lg">
+                                <div class="avatar mb-4">
+                                    <img src="../images/person_5-min.jpg" class="rounded-circle w-100 d-block" alt="">
+                                </div>
+                                <div class="d-flex">
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                </div>
+                                <h4 class="second-color">Cameron Webster</h4>
+                                <p class="my-4">“Far far away, behind the word mountains, far
+                                    from the countries Vokalia and Consonantia,
+                                    there live the blind texts. Separated they live in
+                                    Bookmarksgrove right at the coast of the
+                                    Semantics, a large language ocean”</p>
+                                <p class="text-secondary">Designer, Co-founder</p>
+                            </div>
+                            <div class="item mb-5 col-10 col-md-5 col-lg">
+                                <div class="avatar mb-4">
+                                    <img src="../images/person_6-min.jpg" class="rounded-circle w-100 d-block" alt="">
+                                </div>
+                                <div class="d-flex">
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                </div>
+                                <h4 class="second-color">Cameron Webster</h4>
+                                <p class="my-4">“Far far away, behind the word mountains, far
+                                    from the countries Vokalia and Consonantia,
+                                    there live the blind texts. Separated they live in
+                                    Bookmarksgrove right at the coast of the
+                                    Semantics, a large language ocean”</p>
+                                <p class="text-secondary">Designer, Co-founder</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section class="stats my-5 light-bg py-5">
+        <div class="container">
+            <div class="title text-center">
+                <h2>Let's find home that’s<br>
+                    perfect for you</h2>
+                <p class="w-25 mx-auto text-secondary my-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Aliquam cumque eum dolores minus et maxime
+                    laborum eaque?</p>
+            </div>
+            <div class="row justify-content-around">
+                <div class="left col-10 col-md-4 d-flex flex-column justify-content-center">
+                    <div class="item col-12">
+                        <div class="d-flex gap-2">
+                            <p class="p-4 bg-dark-subtle rounded-circle"><i class="fa-solid fa-home"></i>
+                            <div class="cap">
+                                <p class="second-color fw-bold">2M Properties</p>
+                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, qui?</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item col-12 my-5">
+                        <div class="d-flex gap-2">
+                            <p class="p-4 bg-dark-subtle rounded-circle"><i class="fa-solid fa-user"></i></p>
+                            <div class="cap">
+                                <p class="second-color fw-bold">Top Rated Agents</p>
+                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, qui?</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item col-12">
+                        <div class="d-flex gap-2">
+                            <p class="p-4 bg-dark-subtle rounded-circle"><i class="fa-solid fa-shield-halved"></i></p>
+                            <div class="cap">
+                                <p class="second-color fw-bold">Legit Properties</p>
+                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, qui?</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right col-10 col-md-6">
+                    <div class="image position-relative">
+                        <img src="../images/dots.png" class="dots w-50 d-block position-absolute" alt="">
+                        <img src="../images/hero_bg_3.jpg" class="w-100 h-100 d-block position-relative" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center mt-5">
+                <div class="item text-center col-10 col-md-5 col-lg">
+                    <h2 class="fw-bold second-color">3,298</h2>
+                    <p class="text-secondary">#of Buy Properties</p>
+                </div>
+                <div class="item text-center col-10 col-md-5 col-lg">
+                    <h2 class="fw-bold second-color">2,181</h2>
+                    <p class="text-secondary">#of Sell Properties</p>
+                </div>
+                <div class="item text-center col-10 col-md-5 col-lg">
+                    <h2 class="fw-bold second-color">9,316</h2>
+                    <p class="text-secondary">#of All Properties</p>
+                </div>
+                <div class="item text-center col-10 col-md-5 col-lg">
+                    <h2 class="fw-bold second-color">7,191</h2>
+                    <p class="text-secondary">#of Agents</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <h3 class="second-color fw-medium text-center">Be a part of our growing real state agents</h3>
+    <button class="m-bg-color d-block mx-auto border-0 py-3 px-4 rounded-5 text-white mb-5">Apply For Real state
+        Agent</button>
+
+    <section class="our-agents light-bg py-5 my-5">
+        <div class="container">
+            <div class="title text-center col-10 col-md-6 d-block mx-auto pb-5">
+                <h2 class="fw-medium second-color">Our Agents</h2>
+                <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam enim
+                    pariatur similique debitis vel nisi qui reprehenderit totam? Quod maiores. </p>
+            </div>
+            <div class="row justify-content-around mt-5 gap-3">
+                <div class="item bg-white mt-5 mt-lg-0 pb-4 col-10 col-md-5 col-lg px-3 text-center position-relative">
+                    <div class="image avatar mx-auto position-relative">
+                        <img src="../images/person_1-min.jpg" class="d-block w-100 rounded-circle" alt="">
+                    </div>
+                    <p class="fw-bold mb-0">James Doe</p>
+                    <p class="text-secondary">Real Estate Agent</p>
+                    <p class="text-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum vitae
+                        illo ullam! At asperiores
+                        consequuntur illo. Consectetur tempore consequuntur deserunt.</p>
+                    <div class="d-flex gap-3 justify-content-center">
+                        <div class="circle rounded-circle d-flex justify-content-center align-items-center text-white">
+                            <i class="fa-brands fa-twitter"></i>
+                        </div>
+                        <div class="circle rounded-circle d-flex justify-content-center align-items-center text-white">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </div>
+                        <div class="circle rounded-circle d-flex justify-content-center align-items-center text-white">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </div>
+                        <div class="circle rounded-circle d-flex justify-content-center align-items-center text-white">
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="item bg-white mt-5 mt-lg-0 pb-4 col-10 col-md-5 col-lg px-3 text-center position-relative">
+                    <div class="image avatar mx-auto position-relative">
+                        <img src="../images/person_2-min.jpg" class="d-block w-100 rounded-circle" alt="">
+                    </div>
+                    <p class="fw-bold mb-0">James Doe</p>
+                    <p class="text-secondary">Real Estate Agent</p>
+                    <p class="text-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum vitae
+                        illo ullam! At asperiores
+                        consequuntur illo. Consectetur tempore consequuntur deserunt.</p>
+                    <div class="d-flex gap-3 justify-content-center">
+                        <div class="circle rounded-circle d-flex justify-content-center align-items-center text-white">
+                            <i class="fa-brands fa-twitter"></i>
+                        </div>
+                        <div class="circle rounded-circle d-flex justify-content-center align-items-center text-white">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </div>
+                        <div class="circle rounded-circle d-flex justify-content-center align-items-center text-white">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </div>
+                        <div class="circle rounded-circle d-flex justify-content-center align-items-center text-white">
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="item bg-white mt-5 mt-lg-0 pb-4 col-10 col-md-5 col-lg px-3 text-center position-relative">
+                    <div class="image avatar mx-auto position-relative">
+                        <img src="../images/person_3-min.jpg" class="d-block w-100 rounded-circle" alt="">
+                    </div>
+                    <p class="fw-bold mb-0">James Doe</p>
+                    <p class="text-secondary">Real Estate Agent</p>
+                    <p class="text-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum vitae
+                        illo ullam! At asperiores
+                        consequuntur illo. Consectetur tempore consequuntur deserunt.</p>
+                    <div class="d-flex gap-3 justify-content-center">
+                        <div class="circle rounded-circle d-flex justify-content-center align-items-center text-white">
+                            <i class="fa-brands fa-twitter"></i>
+                        </div>
+                        <div class="circle rounded-circle d-flex justify-content-center align-items-center text-white">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </div>
+                        <div class="circle rounded-circle d-flex justify-content-center align-items-center text-white">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </div>
+                        <div class="circle rounded-circle d-flex justify-content-center align-items-center text-white">
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-5 my-5 bg-secondary-subtle">
+        <div class="container">
+            <div class="row justify-content-center mb-5">
+                <div class="contact col-10 col-md-5 col-lg-4">
+                    <p class="text-uppercase second-color fw-bold">contact</p>
+                    <p class="text-secondary">43 Raymouth Rd. Baltemoer, London 3910</p>
+                    <p class="text-decoration-underline text-secondary">+1(123)-456-7890</p>
+                    <p class="text-decoration-underline text-secondary">+1(123)-456-7890</p>
+                    <p class="text-decoration-underline text-secondary">nfo@mydomain.com</p>
+                </div>
+                <div class="sources col-10 col-md-5 col-lg-2">
+                    <p class="text-uppercase second-color fw-bold">sources</p>
+                    <p class="text-secondary text-decoration-underline">About Us</p>
+                    <p class="text-secondary text-decoration-underline">Services</p>
+                    <p class="text-secondary text-decoration-underline">Vision</p>
+                    <p class="text-secondary text-decoration-underline">Missin</p>
+                    <p class="text-secondary text-decoration-underline">Terms</p>
+                    <p class="text-secondary text-decoration-underline">Privacy</p>
+                </div>
+                <div class="col-10 col-md-5 col-lg-2">
+                    <br>
+                    <p class="text-secondary text-decoration-underline mt-3">Partners</p>
+                    <p class="text-secondary text-decoration-underline">Business</p>
+                    <p class="text-secondary text-decoration-underline">Careers</p>
+                    <p class="text-secondary text-decoration-underline">Blog</p>
+                    <p class="text-secondary text-decoration-underline text-uppercase">faq</p>
+                    <p class="text-secondary text-decoration-underline">creative</p>
+                </div>
+                <div class="links col-10 col-md-5 col-lg-4">
+                    <p class="text-uppercase second-color fw-bold">Links</p>
+                    <p class="text-secondary text-decoration-underline">Our Vision</p>
+                    <p class="text-secondary text-decoration-underline">Abou Us</p>
+                    <p class="text-secondary text-decoration-underline">Contact Us</p>
+                    <div class="d-flex gap-2">
+                        <div class="circle rounded-4 d-flex justify-content-center align-items-center text-white">
+                            <i class="fa-brands fa-instagram text-secondary"></i>
+                        </div>
+                        <div class="circle rounded-4 d-flex justify-content-center align-items-center text-white">
+                            <i class="fa-brands fa-twitter text-secondary"></i>
+                        </div>
+                        <div class="circle rounded-4 d-flex justify-content-center align-items-center text-white">
+                            <i class="fa-brands fa-facebook-f text-secondary"></i>
+                        </div>
+                        <div class="circle rounded-4 d-flex justify-content-center align-items-center text-white">
+                            <i class="fa-brands fa-linkedin-in text-secondary"></i>
+                        </div>
+                        <div class="circle rounded-4 d-flex justify-content-center align-items-center text-white">
+                            <i class="fa-brands fa-pinterest text-secondary"></i>
+                        </div>
+                        <div class="circle rounded-4 d-flex justify-content-center align-items-center text-white">
+                            <i class="fa-solid fa-basketball text-secondary"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="text-center text-secondary">Copyright © 2025 . All Rights Reserved. — Designed with love by <span
+                    class="text-decoration-underline">Untree.co</span></p>
+            <p class="text-center text-secondary">Distributed by <span
+                    class="text-decoration-underline">themewagon</span></p>
+        </div>
+    </footer>
+
+    <script src="../js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
